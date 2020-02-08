@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fillWidth="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="201.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.utu.studentcare.graphicmodeui.FXController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="202.0" prefWidth="299.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <Label layoutX="21.0" layoutY="47.0" prefHeight="21.0" prefWidth="275.0" text="Joku kehveli laittoi slowmoden päälle..." />
+            <Button layoutX="114.0" layoutY="146.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Peruuta" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
